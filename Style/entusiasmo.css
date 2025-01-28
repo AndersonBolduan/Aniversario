@@ -1,0 +1,29 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+    color: #4a3f58;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 180px;
+    margin: 20px auto;
+    animation: bounce 1.5s infinite;
+}
+
+p {
+    font-size: 1.3em;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

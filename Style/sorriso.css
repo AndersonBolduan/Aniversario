@@ -1,0 +1,20 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #d4fc79, #96e6a1);
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 160px;
+    margin: 15px auto;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    padding: 0 20px;
+    text-align: justify;
+}

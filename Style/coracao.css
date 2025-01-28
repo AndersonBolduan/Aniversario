@@ -1,0 +1,64 @@
+/* Estilo geral para o corpo */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #fbc2eb, #a6c1ee); /* Gradiente suave de rosa e azul claro */
+    color: #4a4a4a; /* Tom neutro para texto */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para o contêiner principal */
+div {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #ffffff; /* Fundo branco para contraste */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para a imagem */
+img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: heartbeat 1.5s infinite; /* Animação de batida do coração */
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #6b4e71; /* Roxo suave */
+    text-align: justify;
+    text-indent: 20px; /* Primeira linha indentada */
+    margin: 0;
+}
+
+/* Animação de batida do coração */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+/* Adicionar responsividade */
+@media (max-width: 768px) {
+    div {
+        padding: 15px;
+    }
+    img {
+        width: 120px;
+    }
+    p {
+        font-size: 1em;
+    }
+}

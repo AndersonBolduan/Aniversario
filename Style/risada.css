@@ -1,0 +1,29 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: #5b3a44;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    margin: 10px auto;
+    animation: spin 4s linear infinite;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

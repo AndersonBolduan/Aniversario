@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    color: #5a3d5c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    padding: 0 15px;
+    line-height: 1.6;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #f76c6c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
